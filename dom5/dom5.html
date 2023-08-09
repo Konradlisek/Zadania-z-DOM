@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warsztaty - Walidacja formulareza zapisu do Newsletter'a</title>
+    <link rel="stylesheet" href="dom5.css" />
+  </head>
+  <body>
+    <form action="" id="newslleter-form">
+      <ul id="error"></ul>
+      <label for="name">Imię i nazwisko</label><br />
+      <input type="text" name="name" id="name" placeholder="Jan Nowak" /><br />
+      <label for="email">Adres e-mail</label><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="jan@nowak.pl"
+      /><br />
+
+      <input type="checkbox" name="agree-1" id="agree-1" />
+      <label for="agree-1">Wyrażam zgode1</label><br />
+
+      <input type="checkbox" name="agree-2" id="agree-2" />
+      <label for="agree-2">Wyrażam zgode2</label><br />
+
+      <input type="checkbox" name="all-agree" id="all-agree" />
+      <label for="all-agree">Wyrażam wszystkie zgody</label><br />
+
+      <button type="submit" id="sign-up">Zapisz do newsleterr'a</button>
+    </form>
+
+    <script src="dom5.js"></script>
+  </body>
+</html>
